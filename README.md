@@ -18,9 +18,9 @@ So that they can organize and plan their business
 
 
 ## Demo
-[Demo](/Users/shaymathis/CodingBootcamp/homework12/Assets/Demo.mov)
+[Live Demo](https://drive.google.com/file/d/1DnuXqmsp_LMGFzfPUvpDRDsdrRmABN61/view?usp=sharing)
 
-Please make sure to update tests as appropriate.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
