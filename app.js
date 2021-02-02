@@ -1,5 +1,6 @@
-var mysql = require("mysql");
-var inquirer = require("inquirer");
+const mysql = require("mysql");
+const inquirer = require("inquirer");
+const logo = require("asciiart-logo");
 require("console.table");
 
 var connection = mysql.createConnection({
@@ -18,10 +19,24 @@ var connection = mysql.createConnection({
 
 connection.connect(function(err) {
   if (err) throw err;
+  displayLogo();
   promptUser();
 
 });
 
+function displayLogo(){
+  const logoText = logo(
+    {
+      name: "Employee Tracker",
+      lineChars: 30,
+      padding: 2,
+      margin: 2,
+      borderColor: 'pink',
+      logoColor: 'yellow',
+    }
+      ).render();
+  console.log(logoText);
+}
 // User Prompts
 
 function promptUser() {
