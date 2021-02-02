@@ -1,0 +1,32 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application for managing a company's employees.",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathisshayy/EmployeeTracker.git"
+  },
+  "keywords": [
+    "node.js",
+    "npm",
+    "MySQL",
+    "database"
+  ],
+  "author": "Shay Mathis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathisshayy/EmployeeTracker.git"
+  },
+  "homepage": "https://github.com/mathisshayy/EmployeeTracker.git#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
